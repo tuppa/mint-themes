@@ -201,7 +201,7 @@ filechooser {
 }
 
 NautilusQueryEditor .search-bar.toolbar {
-  padding: 5px;
+  padding: 1px;
   box-shadow: none;
   background-color: $base_color;
 }
@@ -209,7 +209,7 @@ NautilusQueryEditor .search-bar.toolbar {
 .nautilus-circular-button.image-button.button {
   border-radius: 50%;
   -gtk-outline-radius: 50%;
-  padding: 8px;
+  padding: 1px;
 }
 
 $disk_space_unknown: transparentize($fg_color, 0.5);
@@ -339,7 +339,7 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
 .gedit-bottom-panel-paned > separator { background-image: _solid($borders_color); }
 
 .open-document-selector-treeview.view {
-  padding: 3px 6px 3px 6px;
+  padding: 3px 3px 3px 3px;
   border-color: $base_color;  // disable borders, making them transparent doesn't work for some reason
 
   &:hover {
@@ -395,7 +395,7 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
     background: none;
     border: none;
     box-shadow: none;
-    padding: 4px;
+    padding: 1px;
 
     image { color: inherit; }
   }
@@ -451,7 +451,7 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
 
 %search_slider {
   background-color: lighten($bg_color, 2%);
-  padding: 6px;
+  padding: 2px;
   border-color: $borders_color;
   border-radius: 0 0 2px 2px;
   border-width: 0 1px 1px 1px;

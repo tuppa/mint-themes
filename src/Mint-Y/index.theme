@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Mint-Y
 MetacityTheme=Mint-Y
-IconTheme=Mint-Y
-CursorTheme=DMZ-Black
+IconTheme=Radiant-MATE
+CursorTheme=mate-black
 ButtonLayout=menu:minimize,maximize,close

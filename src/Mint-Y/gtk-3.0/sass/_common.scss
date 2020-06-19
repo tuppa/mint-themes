@@ -339,7 +339,7 @@ button {
   transition: $button_transition;
   border: 1px solid;
   border-radius: 3px;
-  padding: 5px 8px;
+  padding: 1px 1px;
 
   @include button(normal);
 
@@ -1601,7 +1601,7 @@ menu,
   // Firefox workaround end
 
   menuitem {
-    min-height: 16px;
+    min-height: 4px;
     min-width: 40px;
     padding: 5px;
 
